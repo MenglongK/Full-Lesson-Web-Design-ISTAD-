@@ -1,0 +1,54 @@
+*{
+    /* font sans-serif is running firstly */
+
+    /* font-family: "Inter", sans-serif;
+    font-family: "Koh Santepheap", serif; */
+    /* font-family: "Inter", "Koh Santepheap", sans-serif; */
+    /* font-family: "Inter", "Timmana", sans-serif; */
+}
+.font-courier{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.font-inter{
+    font-family: "Inter", sans-serif;
+}
+.container{
+    width: 1200px;
+    border: 2px solid darkblue;
+    padding: 40px 30px;
+    margin: auto;
+    background-color: whitesmoke;
+    background-image: url('/css-day2/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* object-fit: contain; */
+}
+.heading{
+    text-align: center;
+    text-transform: ;
+    /* text-decoration: underline; */
+    color: rgb(6, 6, 175);
+    /* letter-spacing: 2px; */
+    font-variant: small-caps;
+}
+.letter-spacing{
+    letter-spacing: 2px;
+    color: darkblue;
+    font-weight: bold;
+}
+.text{
+    line-height: 25px;
+    /* letter-spacing: 1px; */
+}
+.btn{
+    padding: 5px 10px;
+    letter-spacing: 3px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px gray ;
+}
+.btn:hover{
+    background-color: lightskyblue;
+}
